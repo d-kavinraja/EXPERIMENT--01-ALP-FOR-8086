@@ -88,16 +88,19 @@ ret  ;
 ~~~
 name "DIVISION"
 org 100h
-MOV AL,20H;
-MOV BL,10H;
-DIV BL;
-MOV CL,AL;
-MOV AL,00H;
-HLT;
+
+; add your code here
+mov al,04h;
+mov bl,02h;
+div bl;  
+mov [0321h],al
+
+ret;
 ~~~
 
 ## Output 
-![output](./d.png) 
+ ![WhatsApp Image 2024-02-20 at 16 22 53_d87b6c94](https://github.com/d-kavinraja/EXPERIMENT--01-ALP-FOR-8086/assets/119875375/cecd8cbf-851b-4298-8ea4-14a7b625c362)
+
 
 
 ## Result : 
