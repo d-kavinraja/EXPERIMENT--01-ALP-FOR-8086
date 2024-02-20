@@ -38,13 +38,14 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Addition  of 8 bit ALP 
 ~~~
 name "ADDITION"
-org 200h
-MOV AX,05H;
-MOV BX,02H;
-ADD AX,BX;
-MOV CX,AX;
-MOV AX,00H;
-HLT;
+org 100h
+
+mov al,032h;
+mov bl,al;
+add bl,al;
+mov [0243h],bl;
+
+ret;
 ~~~
 ## Output  
 ![WhatsApp Image 2024-02-20 at 16 10 27_2c44b109](https://github.com/d-kavinraja/EXPERIMENT--01-ALP-FOR-8086/assets/119875375/3c442af9-5417-43f0-8979-1937136c2f54)
@@ -54,13 +55,14 @@ HLT;
 ## Subtraction   of 8 bit numbers  ALP 
 ~~~
 name "SUBTRACTION"
-org 200h
-MOV AX,06H;
-MOV BX,04H;
-SUB AX,BX;
-MOV CX,AX;
-MOV AH,00H;
-HLT;
+org 100h
+
+mov al,04h;
+mov bl,02h;
+sub al,bl;
+mov [0243h],bl;
+
+ret;
 ~~~
  
 ## Output
@@ -70,13 +72,13 @@ HLT;
 ## Multiplication alp 
 ~~~
 name "MULTIPLICATION"
-org 200h
-MOV AL,02H;
-MOV BL,03H;
-MUL BL;
-MOV CL,AL;
-MOV AL,00H;
-HLT;
+org 100h
+mov al,04h;
+mov bl,02h;
+mul bl;  
+mov [0243h],al
+
+ret  ;
 ~~~
  ## Output 
 ![WhatsApp Image 2024-02-20 at 16 08 45_abcdb879](https://github.com/d-kavinraja/EXPERIMENT--01-ALP-FOR-8086/assets/119875375/4f271672-5c6c-41cf-b87f-6f72ef3a8cf0)
