@@ -47,7 +47,8 @@ MOV AX,00H;
 HLT;
 ~~~
 ## Output  
-![output](./a.png)
+![WhatsApp Image 2024-02-20 at 16 10 27_2c44b109](https://github.com/d-kavinraja/EXPERIMENT--01-ALP-FOR-8086/assets/119875375/3c442af9-5417-43f0-8979-1937136c2f54)
+
 
  
 ## Subtraction   of 8 bit numbers  ALP 
@@ -63,7 +64,8 @@ HLT;
 ~~~
  
 ## Output
-![output](./b.png)
+![WhatsApp Image 2024-02-20 at 16 09 38_9cc5504e](https://github.com/d-kavinraja/EXPERIMENT--01-ALP-FOR-8086/assets/119875375/976bbe86-6c21-4a0e-872f-8c4ee7d7368d)
+
 
 ## Multiplication alp 
 ~~~
@@ -77,7 +79,7 @@ MOV AL,00H;
 HLT;
 ~~~
  ## Output 
- ![output](./c.png) 
+![WhatsApp Image 2024-02-20 at 16 08 45_abcdb879](https://github.com/d-kavinraja/EXPERIMENT--01-ALP-FOR-8086/assets/119875375/4f271672-5c6c-41cf-b87f-6f72ef3a8cf0)
 
 
 ## Division alp 
